@@ -1,0 +1,28 @@
+Last Lecture
+1 Continue HTML 
+<form action="url" method="post">
+	<input type="radio" name="gender" value="...">
+	<input type="radio" name="gender">
+	<input type="checkbox" name="skills" value="">Core java
+	...
+	<select >
+		<option value="..."> Pune</option>
+		...
+	</select>
+	<span >shb,hsdb</span>
+	<button type="submit">...</button>
+	
+</form>
+<head>
+	<style>
+		...
+	</style>
+
+<a href="index.html">...</a>
+<img style="..." src="image/bg4.jpg">
+<a href="index.html"> <img style="..." src="image/bg4.jpg">
+</a>
+
+Today Lecture
+1 Continue HTML
+	

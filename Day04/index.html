@@ -1,0 +1,46 @@
+
+<html>
+	<head>
+		<title> My First Application </title>
+	</head>
+	
+	<body>
+		<h1 style="color:blue;">Hi Welcome</h1>
+		
+		<form action="localhost:4200/api/save" method="post">
+		
+		<label>Username :: </label>
+		<input type="text" id="username" value="Sumit raokhande"
+		name="username" placeholder="Enter the Username "><br><br>
+		<label> Password:: </label> &nbsp;&nbsp;
+		<input type="password" placeholder="Enter the Password "><br><br>
+		<label>Telephone :: </label>&nbsp;&nbsp;
+		<input type="tel" placeholder="Enter the Telephone number"><br><br>
+		<label>Mobile No :: </label>&nbsp;&nbsp;
+		<input type="number" placeholder="Enter the Mobile No"><br><br>
+		<label>Date :: </label>&nbsp;&nbsp;
+		<input type="Date"> <br><br>
+		<label>Gender :: </label>&nbsp;&nbsp;
+		<input type="radio" name="gender" value="male">Male&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="gender" value="female">Female<br><br>
+		<label>Skills :: </label>&nbsp;&nbsp;
+		 <label for="corejava"> <input value="corejava" id="corejava" type="checkbox">Core Java</label>
+		<input type="checkbox" value="htmlcssjs">HTML,CSS,JS
+		<input type="checkbox" value="manual">Manual
+		<input type="checkbox">Selenium<br><br>
+		
+		<select id="city" name="">
+			<option> Select City</option>
+			<option value="pune"> Pune </option>
+			<option> Mumbai </option>
+			<option> Satara </option>
+			<option> Nagpur </option>
+		</select>
+		<span style="color:red"> Please Select a city </span><br><br>
+		<button type="submit">Submit data </button>
+		</form>
+		<a href="tag.html">Tag Site </a>
+		
+		
+	</body>
+</html>
