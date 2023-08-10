@@ -1,0 +1,22 @@
+Last Lecture
+1 WebElement	
+	1 sendKeys()
+	2 click()
+	3 getText()
+	
+	WebElement emailelement= driver.findElement(By.xpath("..."));
+		emailelement.sendKeys("cnf");
+		....
+	WebElement str=driver.findElement(By.xpath("..."));
+	String str1=str.getText();
+	
+		
+	
+	
+2 DOM Structure
+
+Today Lecture
+1 Drop down 
+2 Alert handle
+
+	
