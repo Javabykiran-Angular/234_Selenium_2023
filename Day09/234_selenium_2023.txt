@@ -1,0 +1,28 @@
+Last Lecture
+1 Drop down 
+	Select selectdrop=new Select(dropdownselement);
+	selectdrop.selectByIndex(1);
+	
+	selectdrop.selectByValue("..");
+	selectdrop.selectByVisibleText("...");
+	
+	Alert alert= driver.switchTo().alert()
+	alert.accept();
+	driver.switchTo().defaultContetnt();		
+2 Alert handle
+
+
+Today Lecture
+1 Locators In selenium
+	- it is used to loacte a web element to get the handle or object of particular web element 
+	1 Id
+	2 name
+	3 linkText 
+		- It generally iused for anchor tag <a href=""> Home </a>
+	4 partialLinkText
+	5 tag name 
+	6 Attributes
+	7 class name 
+	8 Dynamic xpath => Pending 
+
+	
