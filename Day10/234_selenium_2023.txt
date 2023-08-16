@@ -1,0 +1,36 @@
+Last Lecture
+1 Locators In selenium
+	- it is used to loacte a web element to get the handle or object of particular web element 
+	1 Id
+		driver.findelement(By.id("...")).sendKeys("..")
+	2 name
+		driver.findelement(By.name("...")).sendKeys("..")
+	3 linkText 
+		- It generally is used for anchor tag <a href=""> Home </a>
+		driver.findelement(By.linkText("....")).click();
+	4 partialLinkText
+	driver.findelement(By.ParatialinkText("....")).click();
+	5 tag name 
+		driver.findelement(By.tagName("input"))
+		
+		List<WebElement> list= driver.findelements(By.tagName("input"));
+		
+		for(int i=0;i<list.size();i++){
+		WebElement element=list.get(i);
+			
+			if(element.getAttribute("placeholder").compareTo("Email")==0){
+			...
+			}
+		}
+		
+		driver.findelement(By.ClassName("btn"))
+		
+	6 Attributes
+	7 class name 
+	8 Dynamic xpath => Pending 
+
+Today Lecture
+1 Navigation Commands
+2 Handle Windows
+3 Modify the code as per industry standards
+	
