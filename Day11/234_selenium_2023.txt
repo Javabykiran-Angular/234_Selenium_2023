@@ -1,0 +1,34 @@
+Last Lecture
+1 Navigation Commands
+	driver.navigate().back();
+	driver.navigate().forward();
+	driver.navigate().refresh();
+	
+2 Handle Windows
+	ArrayList<String> list=new ArrayList(driver.getWindowHandles());
+	
+	for(int i=0;i<list.size();i++){
+		if(i!=0){
+			driver.switchTo().window(list.get(i));
+			driver.close();
+		}
+	}
+	
+	driver.switchTo().window(list.get(0));
+	driver.switchTo().defaultContent();
+	...
+	
+3 Modify the code as per industry standards
+	Class Config{
+		WebDriver driver;
+		
+		public void BrowserSetting(String url){
+			WebDriverManager.
+			driver=new ChromeDriver();
+			driver.get(url);
+		}
+	}
+
+Today Lecture
+1 Modify the code as per industry standards
+	
