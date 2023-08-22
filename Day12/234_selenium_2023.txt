@@ -1,0 +1,30 @@
+Last Lecture
+1 Modify the code as per industry standards
+	class Config{
+		WebDriver driver;
+		
+		public void browserSetting(String url){
+			....
+			driver=new ChromeDriver();
+			driver.get(url);
+		}
+		public WebElement elementAccessByid(String id){
+			return driver.findelement(By.id(id)));
+		}
+		public void loginAccess(){
+			driver.findelement(By.id("")).sendKeys("...")
+			WebElement emailaccess= elementAccessByid("..");
+			...
+			
+		}
+	}
+	
+	pstvm{
+		Config obj=new Config();
+		obj.browserSetting("...");
+		obj.loginAccess();
+		
+	}
+
+Today Lecture
+1 iFrame	
