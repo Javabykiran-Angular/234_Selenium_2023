@@ -1,0 +1,12 @@
+Last Lecture
+1 iFrame
+	driver.switchTo().frame("webform");
+	try{
+	Thread.sleep(5000);	
+	driver.findElement(By.xpath("")).click();
+	driver.switchTo().defaultContent();
+	}catch(...){}
+	
+
+Today Lecture
+1 Automate Table data
