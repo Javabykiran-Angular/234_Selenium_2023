@@ -1,0 +1,19 @@
+Last Lecture
+1 Automate Table data
+ List<WebElement> list_row= driver.findElemenets(By.tagname("tr"));
+ for(int i=0;i<list_row.size();i++){
+	List<WebElement> list_col= list_row.get(i).findElemenets(by.tagname("td"));
+	for(int j=0;j<8;j++){
+		list_col.get(j).getText();
+		..
+	}
+ }
+
+Today Lecture
+1 Synchronization
+2 Wait in Selenium
+	1 implicit wait
+		- it wait all web element access by selenium
+	2 explicit wait
+		- It wait a particular web Element 
+3 TakeScreenShot
