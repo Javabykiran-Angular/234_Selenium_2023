@@ -1,0 +1,34 @@
+Last Lecture
+1 Synchronization
+2 Wait in Selenium
+	1 implicit wait
+		- it wait all web element access by selenium
+		driver.manage().timeout().implicitwait(5,TimeUnit.seconds);
+	2 explicit wait
+		- It wait a particular web Element 
+		
+		WebDriverWait wait=new WebDriverWait(driver,10);
+		..
+		WebElement element= wait.until(ExpectectedConditions.VisibilityOfElementLocatated(By.name(""))));
+		element.sendKeys("...");
+		
+3 TakeScreenShot
+	File source=((TakeScreenShot)driver).getScreenShotAs(OutPutType.File);
+	
+	File target=new File("...\\login.png");
+	
+	Filehandler.copy(source,target);
+
+
+Today Lecture
+1 Properties File
+	- To set any configuration data 
+		- Url
+		- browsername
+		- filepath
+	myfile.properties	
+- It store data into key & value format	
+2 Excel sheet 
+	- to set test data 
+
+
