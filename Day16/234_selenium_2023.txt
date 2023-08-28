@@ -1,0 +1,66 @@
+Last Lecture
+1 Properties File
+	- To set any configuration data 
+		- Url
+		- browsername
+		- filepath
+	myfile.properties	
+	username=sumit
+	password:sumit123
+	url=...
+	
+	String strurl='';
+	try{
+	FileInputStream fis=new FileInputStream("....");
+	
+	Properties props=new Properties();
+	props.load(fis);
+	
+	String strUsername=props.getProperty("username");
+	
+	..
+	strurl=props.getProperty("url");
+	
+	}catch(..){}
+	return strurl;
+	
+	public void browserSetting(){
+		....
+		driver.get(readFile());
+		
+	}
+	
+- It store data into key & value format	
+2 Excel sheet 
+	- to set test data 
+	
+	FileInputStream fis=new FileInputStream("");
+	
+	XSSFWorkbook workbook=new Workbook(fis);
+	XSSFSheet sheet = workbook.getSheet("sheet1");
+	XSSFRow row=sheet.getRow(0);
+	XSSFCell cell=row.getCell(0);
+	cell.getStringValue();
+	
+Today Lecture
+1 Continue Excel sheet 
+	
+2 Dynamic Xpath
+ - It is used to locate ur webelement
+ - It allows you to locate elements on a web page based on their dynamic characteristics, such as changing IDs, names, classes, or other attributes.
+ 
+ 1 absolute xpath
+		-/ -> used single slash to calculate 
+		- it starts from its root node or base node => /html 
+		- we can not get shortest path from absolute xpath  
+ 2 relative xpath
+	 - // => relative path used double slash to calculate
+	 - it calculate nearest node to locate ur webElement
+	 <div>
+		<div>
+			<p>
+	 - we get shortest xpath 
+		
+		//tagname[@id='value']
+
+
