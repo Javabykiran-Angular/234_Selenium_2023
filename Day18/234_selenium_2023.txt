@@ -1,0 +1,18 @@
+Last Lecture
+1 Dynamic Xpath
+
+(//input[contains(@name,'passwd')])[1]
+//input[starts-with(@name,'confirm')]
+	
+Today Lecture
+1 following
+(//div[@id='__next']/div[2]//following::li)[2]/a
+
+2 child 
+
+(//div[@id='__next']/div[2]//child::li)[3]//a
+
+3 TestNg
+	- It execute you test cases 
+4 Junit
+
