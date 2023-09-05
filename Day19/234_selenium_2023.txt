@@ -1,0 +1,19 @@
+Last Lecture
+1 following
+(//div[@id='__next']/div[2]//following::li)[2]/a
+
+2 child 
+
+(//div[@id='__next']/div[2]//child::li)[3]//a
+
+3 TestNg
+	- It execute you test cases 
+4 Junit
+
+Today Lecture
+1 TestNg
+	- it is a lib/tool
+	- it is used to execute ur test case 
+2 testng xml file
+	- To execute all test cases in project
+3 emailable report 
