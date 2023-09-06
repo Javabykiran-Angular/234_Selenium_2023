@@ -1,0 +1,38 @@
+Last Lecture
+1 TestNg
+	- it is a lib/tool
+	- it is used to execute ur test case 
+	
+	public class Demo1{
+		
+		@Test(priority=1)
+		public void test1(){
+			syso("...")
+		}
+		
+		@Test(priority=2)
+		public void test2(){
+			syso("...")
+		}
+	}
+	
+	public class Demo2{
+		
+		@Test(priority=1)
+		public void test1(){
+			syso("...")
+		}
+		
+		@Test(priority=2)
+		public void test2(){
+			syso("...")
+		}
+	}
+	
+2 testng xml file
+	- To execute all test cases in project
+3 emailable report 
+
+Today Lecture
+1 TestNg Different Annotations
+2 Freamwork Integration start
