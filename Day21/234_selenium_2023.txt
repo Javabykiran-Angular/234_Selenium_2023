@@ -1,0 +1,14 @@
+Last Lecture
+1 TestNg Different Annotations
+	@BeforeSuite,@BeforeTest,@BeforeClass,@BeforeMethod,@Test,
+	@AfterMethod,@AfterClass,@AfterTest,@AfterSuite
+2 Freamwork Integration start
+
+Today Lecture
+1 Assert
+	- To execute your test case 
+	BRD -> document 
+	expected result=> BRD document  & 
+	actual result => Actual output -> web application 
+2 Hard Assert 
+3 Soft assert
