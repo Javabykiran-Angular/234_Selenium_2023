@@ -1,0 +1,16 @@
+Last Lecture
+1 Assert
+	- To execute your test case 
+	BRD -> document 
+	expected result=> BRD document  & 
+	actual result => Actual output -> web application 
+2 Hard Assert 
+3 Soft assert
+
+Today Lecture
+1 Data provider
+	
+2 Full Integration
+
+
+
