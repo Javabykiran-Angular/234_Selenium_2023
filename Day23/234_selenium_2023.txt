@@ -1,0 +1,33 @@
+Last Lecture
+1 Data provider
+	
+	@Test(prioprity=1,dataprovier="testdata")
+	public void login(int id,String username,int val){
+		...
+	}
+	
+	@DataProvider(name="testdata")
+	public Object[][] testdata(){
+		return new Object[][]{
+			{9,'Sumit',456}
+			{6,'Sumit',456}
+		}
+	}
+	
+2 Full Integration
+	
+
+Today Lecture
+1 Introduction Of Maven
+	- maven is java project management tool 
+	- It manage the dependency 
+	- Pom.xml => project Object Module 
+		- It manage the dependency u required in your project 
+	
+	
+2 How to Use Maven in selenium
+
+
+
+
+
