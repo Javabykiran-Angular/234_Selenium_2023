@@ -1,0 +1,28 @@
+Last Lecture
+1 Introduction Of Maven
+	- maven is java project management tool 
+	- It manage the dependency 
+	- Pom.xml => project Object Module 
+		- It manage the dependency u required in your project	
+2 How to Use Maven in selenium
+
+
+Today Lecture
+1 Full Integration with maven
+
+
+	9960556397 => sumit raokhande whts up number
+	7972547618 => calling
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
